@@ -1,0 +1,53 @@
+header {
+    background-color: #633562;
+    width: 100%;
+    position: fixed;
+    padding: -1%;
+    margin-top: -0.5%;
+    }
+body {
+    
+    background-color:rgb(73, 72, 73);
+    color: white;
+    text-align: center;
+    line-height: 1.8;   
+    }
+main {
+    padding-top: 20%;
+}    
+img {
+    max-width: 150px;
+    height: 150px;
+    position: relative
+    }
+div {
+    text-align: center;
+    }
+p {
+    text-align: center;
+}
+             /* unvisited link */
+            a:link {
+                color: violet;
+            }
+            
+            /* visited link */
+            a:visited {
+                color: violet;
+            }
+            
+            /* mouse over link */
+            a:hover {
+                color: orange;
+            }
+            
+            /* selected link */
+            a:active {
+                color: yellow;
+            } 
+footer {
+    background-color: #633562;
+    width: 100%;
+    
+    padding: 0%;
+}
