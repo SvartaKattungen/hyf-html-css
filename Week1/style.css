@@ -23,6 +23,9 @@ img {
 div {
     text-align: center;
     }
+li {
+    list-style-position: inside;
+    }
 p {
     text-align: center;
 }
