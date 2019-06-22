@@ -1,0 +1,5 @@
+pwd - print working directory (show location)
+touch . anna-test
+mkdir -p these/folders/are/just/for/fun
+ls -R there - it lists the directory
+-ne
