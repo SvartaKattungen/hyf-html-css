@@ -16,7 +16,7 @@ body {
     margin: 2rem;
 }
 header{
-  padding top: -1rem;
+  padding-top: -1rem;
 }
 
 /*Grids*/
@@ -45,7 +45,7 @@ p {
 
 
 #grid-floats li {
-    display: inline-block;
+    display: inherit;
     float: left;
     margin: 1rem;
     width: 20%;
@@ -62,7 +62,7 @@ height: 40%;
 
 
 #grid-flex li{
-    display: inline-block;
+    display: inherit;
     float: left;
     margin: 1rem;
     width: 20%;
