@@ -1,0 +1,77 @@
+html{
+    background: rgb(119, 26, 26);
+    margin: 10px;
+    font-size: 16px;
+    color: #1a7878;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    margin: 2rem;
+}
+header{
+  padding top: -1rem;
+}
+
+/*Grids*/
+h1 {
+    margin: 1rem;
+    font-size: 2,5rem;
+    color: white;
+}
+
+/*Grid with floats/flex*/
+h2 {
+    display: inherit;
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+    border: 0,5rem;
+    }
+
+h3 {
+    font-size: 1,5rem;
+}
+p {
+    font-size: 1rem;
+    background: transparent;
+}
+
+
+#grid-floats li {
+    display: inline-block;
+    float: left;
+    margin: 1rem;
+    width: 20%;
+    height: 27rem;
+    border-style: solid;
+    padding: 10px;
+    background: white;
+}
+
+#grid-floats img {
+height: 40%;
+}
+
+
+
+#grid-flex li{
+    display: inline-block;
+    float: left;
+    margin: 1rem;
+    width: 20%;
+    height: 27rem;
+    border-style: solid;
+    padding: 10px;
+    background: white;
+}
+
+#grid-flex img {
+height: 40%;
+}
