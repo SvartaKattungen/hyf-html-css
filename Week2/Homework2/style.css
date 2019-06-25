@@ -50,7 +50,8 @@ p {
     margin: 1rem;
     width: 20%;
     height: 27rem;
-    border-style: solid;
+    border-style: dotted;
+    border-radius: 10%;
     padding: 10px;
     background: white;
 }
@@ -67,7 +68,8 @@ height: 40%;
     margin: 1rem;
     width: 20%;
     height: 27rem;
-    border-style: solid;
+    border-style: double;
+    border-radius: 10%;
     padding: 10px;
     background: white;
 }
