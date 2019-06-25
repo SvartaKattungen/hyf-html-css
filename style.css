@@ -2,16 +2,27 @@ header {
     background-color: #633562;
     width: 100%;
     position: fixed;
-    padding: -1%;
+    padding: -0.5%;
     margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
     }
-body {
+head {
     
+}
+body {
     background-color:rgb(73, 72, 73);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     text-align: center;
-    line-height: 1.8;   
+    line-height: 1.8;  
     }
+/* did not work
+.background {
+    opacity: 0.5;
+}
+*/
 main {
     padding-top: 20%;
 }    
@@ -21,22 +32,23 @@ img {
     position: relative
     }
 div {
-    text-align: center;
+    text-align: center;  
     }
 li {
     list-style-position: inside;
     }
 p {
     text-align: center;
+    
 }
              /* unvisited link */
             a:link {
-                color: violet;
+                color: white;
             }
             
             /* visited link */
             a:visited {
-                color: violet;
+                color: white;
             }
             
             /* mouse over link */
