@@ -7,11 +7,15 @@ header {
     margin-left: -0.5%;
     margin-right: -0.5%;
     }
+#floatRight {
+    float: right;
+    padding-right: 12rem;
+}
 
 body {
-    background-color:rgb(73, 72, 73);
+    background-color:rgb(133, 110, 133);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 180%;
     color: white;
     text-align: center;
     line-height: 1.8;  
@@ -27,7 +31,9 @@ main {
 img {
     max-width: 150px;
     height: 150px;
-    position: relative
+    padding-left: 5%;
+    float: left;
+    clear: left;
     }
 div {
     text-align: center;  
@@ -35,6 +41,25 @@ div {
 li {
     list-style-position: inside;
     }
+
+    /*section*/
+    #grid-floats li {
+        display: inherit;
+        float: left;
+        margin: 1rem;
+        width: 25%;
+
+        border-style: ;
+        border-radius: 2%;
+        padding: 10px;
+        background: rgb(83, 63, 83);
+        opacity: 0.8;
+    }
+    
+    /*#grid-floats img {
+    height: 40%;
+    }*/
+
 p {
     text-align: center;
     
@@ -61,6 +86,9 @@ p {
 footer {
     background-color: #633562;
     width: 100%;
-    
-    padding: 0%;
+    position:bottom;
+    padding: -0.5%;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
 }
