@@ -9,12 +9,12 @@ header {
     }
 #floatRight {
     float: right;
-    padding-right: 12rem;
+    padding-right: 45%;
 }
 
 body {
     background-color:rgb(133, 110, 133);
-    background-repeat: no-repeat;
+    background-repeat: initial;
     background-size: 180%;
     color: white;
     text-align: center;
