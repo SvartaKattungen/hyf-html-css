@@ -1,7 +1,7 @@
 header {
     background-color: #633562;
     width: 100%;
-    position: fixed;
+    position:absolute;
     padding: -0.5%;
     margin-top: -0.5%;
     margin-left: -0.5%;
@@ -16,7 +16,7 @@ body {
     background-color:rgb(133, 110, 133);
     background-repeat: initial;
     background-size: 180%;
-    color: white;
+    color: #F9F871;
     text-align: center;
     line-height: 1.8;  
     }
@@ -66,12 +66,12 @@ p {
 }
              /* unvisited link */
             a:link {
-                color: white;
+                color: #F9F871;
             }
             
             /* visited link */
             a:visited {
-                color: white;
+                color: #F9F871;
             }
             
             /* mouse over link */
